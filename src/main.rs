@@ -6,5 +6,9 @@ fn main() {
     let f = moo::nested::foo();
     println!("{}", f);
     println!("Hello, world!");
-    print!("{:?}", examples::closure::closure_example(vec![0,81]));
+    println!("{:?}", examples::closure::closure_example(vec![0,81]));
+
+    let mut my_num = 2;
+    examples::reference::quadrat(&mut my_num);
+    println!("{:?}", my_num);
 }
