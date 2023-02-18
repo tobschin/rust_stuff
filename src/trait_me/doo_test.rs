@@ -14,7 +14,7 @@ mod tests {
 
     #[test]
     fn test_boy() {
-        let boy : Boy = Boy{};
+        let boy :Boy  = Boy{};
         assert_eq!(boy.cry(), "Boys dont cry!");
         assert_eq!(boy.run(), "RUN");
         assert_eq!(boy.fight(), "fight");
